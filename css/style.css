@@ -1,8 +1,7 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Portfolio
+Client: Personal
+Author: Ari Korner
 */
 
 
@@ -56,3 +55,82 @@ body {
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+.flexwrapper {
+  margin-left: 0;
+}
+
+.flexwrapper > section {
+     position: relative;
+     float: left;
+     display: block;
+     width: 100%;
+     border-left: 1em solid #fff;
+     border-right: 1em solid #fff;
+     padding-bottom: 1em;
+}
+/***
+.flexwrapper > section:nth-child(1) { background: #fff; }
+.flexwrapper > section:nth-child(2) { background: #fff; }
+.flexwrapper > section:nth-child(3) { background: #fff; }
+.flexwrapper > section:nth-child(4) { background: #fff; }
+
+***/
+
+img {
+     max-width: 100%;
+}
+
+/* Decorative bits and bobs */
+
+body { 
+     font: 1.125em/1.4 'Source Sans Pro', sans-serif;
+     background: #fff;
+     color: #31656e;
+     text-align: center;
+     padding: 4em 0; 
+}
+
+h1 { 
+     font-weight: 900;
+     font-size: 1.6em;
+     line-height: 1.2; 
+}
+
+h2 { 
+     z-index: 1;
+     position: absolute;
+     font-weight: 400;
+     font-size: 1em;
+     color: #597a80;
+     text-transform: uppercase;
+     margin: .5em 0 4em;
+     letter-spacing: .25em;
+}
+
+
+/**
+#project-images {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     background: black
+
+}
+
+#project-images > section {
+     float: left;
+     width: ;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+**/
