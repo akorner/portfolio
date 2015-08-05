@@ -49,15 +49,16 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     margin:0px;
+     margin: 0;
 }
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 .intro{
-     padding: 60px;
-     margin-bottom: 2em;
+     padding-left: 60px;
+     padding-right: 60px;
+     margin-bottom: 2.5em;
 }
 
 .heading{
@@ -65,9 +66,10 @@ body {
 }
 
 .heading-text {
-     width: 85%;
-     font-size: 16px;
-     line-height: 26px;
+     width: 90%;
+     font-family: 'FreightBigBold', Times, serif;
+     font-size: 1.5em;
+     line-height: 1.3em;
      max-width: 960px;
 }
 
@@ -98,58 +100,107 @@ h2 {
 
 .imagewrapper {
   margin-left: 0;
+  width: 100%;
 }
 
 .imagewrapper > section {
      position: relative;
      float: left;
-     display: block;
+     display: block;  
+     padding-bottom: 1.5em;
+     cursor: pointer;
+}
+
+.full {
+     border-left: 2em solid #fff;
+     border-right: 2em solid #fff;
+}
+
+.half1 {
      width: 100%;
-     border-left: .7em solid #fff;
-     border-right: .7em solid #fff;
-     padding-bottom: .5em;
+}
+
+.half2 {
+     width: 100%;
 }
 
 img {
      max-width: 100%;
+     -webkit-filter: brightness(60%);
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
-/* Decorative bits and bobs 
+ img:hover {
+  -webkit-filter: brightness(100%);
+}
 
-body { 
-     font: 1.125em/1.4 'Source Sans Pro', sans-serif;
-     background: #fff;
-     color: #31656e;
+main {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.slide-title {
+     color: white;
+     font-size: 3em;
+     text-transform: uppercase;
+     position: absolute;
+     top: 48%;
      text-align: center;
-     padding: 4em 0; 
-}*/
-
-
+}
 
 footer {
      clear: both;
-}
-
-/**
-#project-images {
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     background: black
+     background: black;
+     color: white;
+     height: 150px;
+     padding: 30px;
 
 }
 
-#project-images > section {
-     float: left;
-     width: ;
-}
+@media screen and (min-width: 767px) {
+    /* desktop */
 
-@media only screen and (min-width: 768px) {
-    /* tablets and desktop */
-}
+    .half1{
+          width: 50%;
+          border-left: 2em solid #fff;
+          border-right: 1em solid #fff;
+    }
 
-@media only screen and (max-width: 767px) {
-    /* phones */
+    .half2{
+          width: 50%;
+          border-left: 1em solid #fff;
+          border-right: 2em solid #fff;
+    }
+
+    .heading-text {
+     width: 85%;
+     font-size: 3.4em;
+     line-height: 1.1em;
+     }
+
+     main {
+          max-width: 1500px;
+          margin: 0 auto;
+     }
+
+     .foot-wrapper {
+          background: yellow;
+          max-width: 1500px;
+          margin: 0 auto;
+     }
+
+/*.heading-text {
+     color: yellow;
+     width: 85%;
+     font-size: 12px;
+     line-height: 1.1em;
+     max-width: 960px;
+}
+*/
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
