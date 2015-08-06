@@ -1,0 +1,33 @@
+/* 
+Project Name: Portfolio - Image Style Sheet
+Client: Personal
+Author: Ari Korner
+*/
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+     #fast-forward-hero {
+          height: 0px;
+          margin-top: -20px;
+          padding-top: 47.5%;
+          background-image: url(../images/cover/cover-ff.jpg);
+          background-repeat:no-repeat;
+          background-size: contain;
+          background-position:center;
+          width: 100%;
+          clear: both;
+     }
+
+          #fast-forward-hero:hover {
+          height: 0px;
+          margin-top: -20px;
+          padding-top: 47.5%;
+          background-image: url(../images/cover/cover-ff-hover.jpg);
+          background-repeat:no-repeat;
+          background-size: contain;
+          background-position:center;
+          width: 100%;
+          clear: both;
+     }

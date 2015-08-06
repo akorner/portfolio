@@ -45,7 +45,7 @@ Author: Ari Korner
 /*******************************************/
 
 body {
-     color: #000;
+     color: #222222;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
@@ -55,114 +55,216 @@ body {
 /******************************************
 /* LAYOUT                   
 /*******************************************/
-.intro{
-     padding-left: 60px;
-     padding-right: 60px;
-     margin-bottom: 2.5em;
-}
+     a {
+          padding: 0;
+     }
 
-.heading{
-     margin-top: 2em;
-}
+     .home-button {
+          padding: 10px;
+          text-decoration: none;
+          color: #222222;
+          font-weight: bold;
+          font-size: 24px;
+          font-family: 'Soliel', Gotham, Helvetica, sans-serif;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          cursor: pointer;
+    }
 
-.heading-text {
-     width: 90%;
-     font-family: 'FreightBigBold', Times, serif;
-     font-size: 1.5em;
-     line-height: 1.3em;
-     max-width: 960px;
-}
+     header {
+          height: 60px;
+          background: none;
+          margin: 0px 35px 0 30px;
 
-p {
-     font-size: 1em;
-}
+     }
 
-h1 { 
-     font-weight: 900;
-     font-size: 6em;
-     line-height: 1.2;
-     letter-spacing: -.01em;
-     margin-top: 0px;
-}
+     nav ul {
+          display: none;
+          float: right;
+          font-size: 14px;
+          line-height: 1em;
+          letter-spacing: 1px;
+          padding: 0px 25px 20px 0;
+          margin: 0 0 0 0;
+     }
 
-h2 { 
-     z-index: 1;
-     position: absolute;
-     font-weight: 400;
-     font-size: 1em;
-     color: #597a80;
-     text-transform: uppercase;
-     margin: .5em 0 4em;
-     letter-spacing: .25em;
-     padding-left: 1em;
-     bottom: 0;
-}
+     nav li {
+          display: inline-block;
+          text-transform: uppercase;
+          padding-right: 20px;
+          padding-top: 8px;
+     }
 
-.imagewrapper {
-  margin-left: 0;
-  width: 100%;
-}
+     li a {
+          color: #282b2d;
+          text-decoration: none;
+          padding-top: 10px;
+     }
 
-.imagewrapper > section {
-     position: relative;
-     float: left;
-     display: block;  
-     padding-bottom: 1.5em;
-     cursor: pointer;
-}
+     .intro{
+          padding-left: 40px;
+          padding-right: 60px;
+          margin-bottom: 2.5em;
+     }
 
-.full {
-     border-left: 2em solid #fff;
-     border-right: 2em solid #fff;
-}
+     .heading{
+          margin-top: 2.5em;
+     }
 
-.half1 {
-     width: 100%;
-}
+     p {
+          font-family: FreightBigBold, MinionPro, Baskerville, Times, serif;
+     }
 
-.half2 {
-     width: 100%;
-}
+     .heading-text {
+          width: 90%;
+          font-family: FreightBigBold, MinionPro, Baskerville, Times, serif;
+          font-size: 1.8em;
+          line-height: 1.4em;
+     }
 
-img {
-     max-width: 100%;
-     -webkit-filter: brightness(60%);
-     -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
 
- img:hover {
-  -webkit-filter: brightness(100%);
-}
+     h1 { 
+          font-weight: 900;
+          font-size: 6em;
+          line-height: 1.2;
+          letter-spacing: -.01em;
+     }
 
-main {
-     margin-left: auto;
-     margin-right: auto;
-}
+     h2 { 
+          font-weight: 800;
+          font-size: 1em;
+          color: #597a80;
+          letter-spacing: .25em;
+     }
 
-.slide-title {
-     color: white;
-     font-size: 3em;
-     text-transform: uppercase;
-     position: absolute;
-     top: 48%;
-     text-align: center;
-}
+     h3 {
+          font-weight: bold;
+          font-size: 1.5em;
+          color: #222222;
+          font-family: 'Soliel', Helvetica, sans-serif;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin-bottom: 1em;
 
-footer {
-     clear: both;
-     background: black;
-     color: white;
-     height: 150px;
-     padding: 30px;
+     }
 
-}
+     .imagewrapper {
+       margin-left: 0;
+       width: 100%;
+     }
+
+     .imagewrapper > section {
+          position: relative;
+          float: left;
+          display: block;  
+          padding-bottom: 1.5em;
+          cursor: pointer;
+     }
+
+     .full {
+          border-left: 2em solid #fff;
+          border-right: 2em solid #fff;
+     }
+
+     .half1 {
+          width: 100%;
+     }
+
+     .half2 {
+          width: 100%;
+     }
+
+     img {
+          max-width: 100%;
+     }
+
+     .imagewrapper img {
+          max-width: 100%;
+          -webkit-filter: brightness(60%);
+          -webkit-transition: all 1s ease;
+          -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+           -ms-transition: all 1s ease;
+               transition: all 1s ease;
+     }
+
+      img:hover {
+       -webkit-filter: brightness(100%);
+     }
+
+
+     .slide-title {
+          color: white;
+          font-size: 3em;
+          text-transform: uppercase;
+          position: absolute;
+          top: 48%;
+          text-align: center;
+     }
+
+     footer {
+          clear: both;
+          background: #fbf8ee;
+          padding: 30px;
+          overflow: hidden;
+
+     }
+
+     .foot-wrapper p {
+          font-size: 1.8em;
+          padding-bottom: 1em;
+
+     }
+
+/***************************************************************************/
 
 @media screen and (min-width: 767px) {
     /* desktop */
+
+    .home-button {
+     padding-left: 40px;
+     text-decoration: none;
+     color: #222222;
+     font-weight: bold;
+     font-size: .4em;
+     font-family: 'Soliel', Gotham, Helvetica, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: .05em;
+    }
+
+     header {
+          height: 60px;
+          background: none;
+          margin: 0 auto;
+          max-width: 1500px;
+
+
+     }
+
+     nav ul {
+          display: block;
+          float: right;
+          font-size: 14px;
+          line-height: 1em;
+          letter-spacing: 1px;
+          padding: 15px 25px 20px 0;
+     }
+
+     nav li{
+          display: inline-block;
+          text-transform: uppercase;
+          padding-right: 20px;
+          padding-top: 40px;
+     }
+
+     li a {
+          font-family: 'Soliel', Gotham, Helvetica, sans-serif;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          color: #222222;
+          text-decoration: none;
+          padding: 10px 10px 10px 10px;
+     }
 
     .half1{
           width: 50%;
@@ -176,10 +278,15 @@ footer {
           border-right: 2em solid #fff;
     }
 
+    .heading{
+     margin-top: 5.5em;
+     }
+
     .heading-text {
      width: 85%;
      font-size: 3.4em;
      line-height: 1.1em;
+     max-width: 960px;
      }
 
      main {
@@ -188,22 +295,49 @@ footer {
      }
 
      .foot-wrapper {
-          background: yellow;
           max-width: 1500px;
           margin: 0 auto;
+          padding:30px;
      }
 
-/*.heading-text {
-     color: yellow;
-     width: 85%;
-     font-size: 12px;
-     line-height: 1.1em;
-     max-width: 960px;
+     .footer-left {
+          display: inline-block;
+          width: 70%;
+          padding: 20px;
+          padding-right: 100px;
+          float: left;
+     }
+
+     .footer-right {
+          display: inline-block;
+          width: 30%;
+          float: right;
+          padding: 20px;
+          position: relative;
+     }
+
+     p {
+          font-size: 2em;
+          font-family: 'FreightBigBold', Times, serif;
+          line-height: 1.3em;
+
+     }
 }
-*/
+@media only screen and (min-width: 1440px) {
+    /* styles for MacBook Pro-sized screens and larger */
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
 }
-**/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+    /* styles for Retina-type displays */
+}
