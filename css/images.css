@@ -7,18 +7,38 @@ Author: Ari Korner
 /******************************************
 /* LAYOUT                   
 /*******************************************/
-
-     #fast-forward-hero {
+     .css-hero {
           height: 0px;
           margin-top: -20px;
           padding-top: 47.5%;
-          background-image: url(../images/cover/cover-ff.jpg);
           background-repeat:no-repeat;
           background-size: contain;
           background-position:center;
           width: 100%;
           clear: both;
      }
+
+     #fast-forward-hero {
+          background-image: url(../images/cover/cover-midwood.jpg);
+     }
+
+      #midwood-hero {
+          background-image: url(../images/cover/cover-ff.jpg);
+     }
+
+      #marathon-hero {
+          background-image: url(../images/cover/cover-marathon.png);
+     }
+
+      #college-hero {
+          background-image: url(../images/cover/cover-college.png);
+     }
+     #holga-hero {
+          background-image: url(../images/cover/cover-holga.jpg);
+     }
+
+
+     /**
 
           #fast-forward-hero:hover {
           height: 0px;
@@ -30,4 +50,4 @@ Author: Ari Korner
           background-position:center;
           width: 100%;
           clear: both;
-     }
+     }**/
