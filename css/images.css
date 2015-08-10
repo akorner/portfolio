@@ -22,19 +22,25 @@ Author: Ari Korner
           background-image: url(../images/cover/cover-midwood.jpg);
      }
 
-      #midwood-hero {
+     #midwood-hero {
           background-image: url(../images/cover/cover-ff.jpg);
      }
 
-      #marathon-hero {
+     #marathon-hero {
           background-image: url(../images/cover/cover-marathon.png);
      }
 
-      #college-hero {
+     #college-hero {
           background-image: url(../images/cover/cover-college.png);
      }
      #holga-hero {
           background-image: url(../images/cover/cover-holga.jpg);
+     }
+     #mondo-hero {
+          background-image: url(../images/cover/cover-mondo.png);
+     }
+     #books-hero {
+          background-image: url(../images/cover/cover-books.jpg);
      }
 
 

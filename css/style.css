@@ -59,7 +59,14 @@ body {
           padding: 0;
      }
 
+     header {
+          height: 60px;
+          margin-left:30px;
+
+     }
+
      .home-button {
+          margin-top: 20px;
           padding: 10px;
           text-decoration: none;
           color: #222222;
@@ -70,13 +77,22 @@ body {
           letter-spacing: .05em;
           cursor: pointer;
     }
+    #hamburger {
+     background-image:url(../images/hamburger.png);
+     height: 100px;
+     width: 100px;
+    }
 
-     header {
-          height: 60px;
-          background: none;
-          margin: 0px 35px 0 30px;
+    .right-menu {
+          float: right;
+          margin-right: 20px;
+          margin-top: 20px;
+          cursor: pointer;
+    }
 
-     }
+    nav {
+          clear: both;
+    }
 
      nav ul {
           display: none;
@@ -85,20 +101,30 @@ body {
           line-height: 1em;
           letter-spacing: 1px;
           padding: 0px 25px 20px 0;
-          margin: 0 0 0 0;
+          margin: 0 auto;
      }
 
-     nav li {
-          display: inline-block;
+     li {
+          display: block;
           text-transform: uppercase;
+          text-align: center;
           padding-right: 20px;
           padding-top: 8px;
+          cursor: pointer;
+          width: 100%;
+          margin: 0 auto;
      }
 
      li a {
-          color: #282b2d;
+          color: gray;
+          text-align: center;
+          display: inline-block;
           text-decoration: none;
           padding-top: 10px;
+     }
+
+     .mobile-nav {
+          display: none;
      }
 
      .intro{
@@ -216,12 +242,36 @@ body {
 
      }
 
+     strong a {
+          text-decoration: none;
+          color: #282b2d;
+          border-bottom: 3px solid #E74C3C;
+     }
+
+     small {
+          padding-top: 3em;
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+
+     }
+
 /***************************************************************************/
 
 @media screen and (min-width: 767px) {
     /* desktop */
 
+     header {
+          height: 60px;
+          background: none;
+          margin: 0 auto;
+          max-width: 1600px;
+
+
+     }
+
     .home-button {
+     float: left;
      padding-left: 40px;
      text-decoration: none;
      color: #222222;
@@ -230,21 +280,21 @@ body {
      font-family: 'Soliel', Gotham, Helvetica, sans-serif;
      text-transform: uppercase;
      letter-spacing: .05em;
+     -webkit-transition: color 1s ease-out;
+     -moz-transition: color 1s ease-out;
+     -o-transition: color 1s ease-out;
+     transition: color 1s ease-out;
     }
 
-     header {
-          height: 60px;
-          background: none;
-          margin: 0 auto;
-          max-width: 1500px;
+    .home-button:hover {
+     color: #dadfe1;
+    }
 
-
-     }
 
      nav ul {
           display: block;
           float: right;
-          font-size: 14px;
+          font-size: 24px;
           line-height: 1em;
           letter-spacing: 1px;
           padding: 15px 25px 20px 0;
@@ -263,8 +313,19 @@ body {
           letter-spacing: .05em;
           color: #222222;
           text-decoration: none;
-          padding: 10px 10px 10px 10px;
+          padding: 10px;
      }
+
+     .heading{
+          margin-top: 4.5em;
+          }
+
+    .heading-text {
+          width: 85%;
+          font-size: 3.4em;
+          line-height: 1.2em;
+          max-width: 960px;
+          }
 
     .half1{
           width: 50%;
@@ -278,24 +339,14 @@ body {
           border-right: 2em solid #fff;
     }
 
-    .heading{
-     margin-top: 5.5em;
-     }
-
-    .heading-text {
-     width: 85%;
-     font-size: 3.4em;
-     line-height: 1.1em;
-     max-width: 960px;
-     }
 
      main {
-          max-width: 1500px;
+          max-width: 1600px;
           margin: 0 auto;
      }
 
      .foot-wrapper {
-          max-width: 1500px;
+          max-width: 1600px;
           margin: 0 auto;
           padding:30px;
      }
@@ -316,12 +367,24 @@ body {
           position: relative;
      }
 
+     .copyright {
+          display: inline-block;
+          width: 30%;
+          float: right;
+          padding: 20px;
+          position: relative;
+
+     }
+
      p {
           font-size: 2em;
           font-family: 'FreightBigBold', Times, serif;
           line-height: 1.3em;
 
      }
+
+
+
 }
 @media only screen and (min-width: 1440px) {
     /* styles for MacBook Pro-sized screens and larger */

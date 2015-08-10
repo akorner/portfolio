@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/images.css">
+		<link rel="stylesheet" href="css/jquery.sidr.dark.css">
 
 
 		<!-- external font link -->
@@ -35,14 +36,29 @@
 
 		<header>
 
-			<nav>
-				<ul>
+			<!--
+			<nav="large-nav">
+				<ul class="clearfix">
 					<li><a href="index.html">About</a></li>
-					<!--<li><a href="resume.html">Resume&#769</a></li>-->
+					<li><a href="resume.html">Resume&#769</a></li>
+				</ul>
+			</nav> -->
+
+
+			<h1><a class="home-button" href="index.html">Ari Korner</a></h1>
+
+			<img class="right-menu" src="images/hamburger.png">
+			<nav class="mobile-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">Project 1</a></li>
+					<li><a href="index.html">Project 2</a></li>
+					<li><a href="index.html">Project 3</a></li>
+					<li><a href="index.html">Project 4</a></li>
 				</ul>
 			</nav>
 
-			<h1><a class="home-button" href="index.html">Ari Korner</a></h1>
+			
 		</header>
 
 	<body>
@@ -62,6 +78,10 @@
 				<section class="full css-hero hotzone" id="college-hero" data-link="http://www.google.com">
 				</section>
 				<section class="full css-hero hotzone" id="holga-hero" data-link="http://www.google.com">
+				</section>
+				<section class="full css-hero hotzone" id="mondo-hero" data-link="http://www.google.com">
+				</section>
+				<section class="full css-hero hotzone" id="books-hero" data-link="http://www.google.com">
 				</section>
 				<!--
 				<section class="full">
@@ -100,13 +120,16 @@
 					
 				</div>
 				<div class="footer-right">
-					<h3>Contact</h3><p>For project inquiries or opportunities, or to say hi, you can reach me right over <strong><a href="mailto:arikorner@gmail.com?Subject=Hello" target="_top">here</a></strong>.
-			</p><small>&copy; 2015, Ari Korner. Thanks for checking this out!</p>
+					<h3>Contact</h3><p>For project inquiries or opportunities, to connect or grab a drink, or to simply to say hello, you can reach me right over <strong><a href="mailto:arikorner@gmail.com?Subject=Hello" target="_top">here</a></strong>.
 				</div>
-			</div><!--foot-wrapper-->	
+				<div class="copyright">
+					</p><small>&copy; 2015, Ari Korner. <br /> Thanks for checking this out!</small></p>
+				</div>
+			</div><!--foot-wrapper end-->	
 		</footer>
 		<!-- javascript -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/jquery.sidr.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
