@@ -1,5 +1,13 @@
 $(function() {
   // Handler for .ready() called.
+	  $('.navToggle').click(function(){
+	  $('.menu').toggleClass('menuOn');
+	  $('nav').toggleClass('navOn');
+	})
+});
+
+$(function() {
+  // Handler for .ready() called.
 
 
   //anything with class hotzone, when clicked, will load http:// contained in "data-link"
@@ -12,20 +20,4 @@ $(function() {
   		window.location.href = link;
   	}); 	
   });
-});
-
-$(function() {
-  // Handler for .ready() called.
-
-  $('.menu-toggle').click(function() {
-  		// alert(click);
-  	$('.menu').slideToggle(700);
-  });
-
- //  	$( window ).resize(function() {
-	// 	if($( window ).width() <= 100) {
-	// 		$('.mobile-nav').hide();
-	// 	}
-	// });
-  
 });
