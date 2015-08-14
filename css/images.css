@@ -5,7 +5,7 @@ Author: Ari Korner
 */
 
 /******************************************
-/* LAYOUT                   
+/* INDEX LAYOUT                   
 /*******************************************/
      .css-hero {
           height: 0px;
@@ -19,11 +19,11 @@ Author: Ari Korner
      }
 
      #fast-forward-hero {
-          background-image: url(../images/cover/cover-midwood.jpg);
+          background-image: url(../images/cover/cover-ff.jpg);
      }
 
      #midwood-hero {
-          background-image: url(../images/cover/cover-ff.jpg);
+          background-image: url(../images/cover/cover-midwood.jpg);
      }
 
      #marathon-hero {
@@ -40,10 +40,20 @@ Author: Ari Korner
           background-image: url(../images/cover/cover-mondo.png);
      }
      #books-hero {
-          background-image: url(../images/cover/cover-books.jpg);
+          background-image: url(../images/cover/cover-books01.jpg);
      }
 
+/******************************************
+/* Midwood                   
+/*******************************************/
 
+/******************************************
+/* Book Cover Design                   
+/*******************************************/
+
+/******************************************
+/* Viacom Fast Forward                   
+/*******************************************/
      /**
 
           #fast-forward-hero:hover {
