@@ -18,8 +18,14 @@ Author: Ari Korner
           clear: both;
      }
 
+
+
      #fast-forward-hero {
           background-image: url(../images/cover/cover-ff.jpg);
+     }
+
+     #centanni-hero {
+          background-image: url(../images/cover/cover-centanni.jpg);
      }
 
      #midwood-hero {
@@ -50,10 +56,51 @@ Author: Ari Korner
 /******************************************
 /* Book Cover Design                   
 /*******************************************/
+     #bj-img01 {
+               background-image: url(../images/work/bookjacket/bookjacket01.jpg);
+          }
+
+     #bj-img02 {
+               background-image: url(../images/work/bookjacket/bookjacket02.jpg);
+          }
+
+     #bj-img03 {
+     background-image: url(../images/work/bookjacket/bookjacket03.jpg);
+          }
+
+     #bj-img04 {
+     background-image: url(../images/work/bookjacket/bookjacket04.jpg);
+          }
+
 
 /******************************************
 /* Viacom Fast Forward                   
 /*******************************************/
+
+
+
+
+/******************************************
+/* Cent'Anni                   
+/*******************************************/
+
+
+
+
+/******************************************
+/* Marathon                   
+/*******************************************/
+
+
+/******************************************
+/* College Snowfest                   
+/*******************************************/
+
+
+/******************************************
+/* Mondo                   
+/*******************************************/
+
      /**
 
           #fast-forward-hero:hover {
