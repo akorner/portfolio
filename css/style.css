@@ -212,6 +212,17 @@ body {
           margin-bottom: -10px;
      }
 
+    .hero-text {
+          width: 100%;
+          font-family: "freight-big-pro", Baskerville, Times, serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 1.6rem;
+          line-height: 1.65rem;
+          letter-spacing: .04rem;
+          margin-bottom: -10px;
+     }
+
      h1 { 
           font-weight: 900;
           font-size: 6em;
@@ -232,7 +243,7 @@ body {
      }
 
      h3 {
-          font-size: 2rem;
+          font-size: 2.25rem;
           color: #222222;
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 900;
@@ -262,8 +273,8 @@ body {
       }
 
      .full {
-          border-left: 2em solid #fff;
-          border-right: 2em solid #fff;
+          border-left: 1.5em solid #fff;
+          border-right: 1.5em solid #fff;
      }
 
      .next-wrapper {
@@ -286,7 +297,7 @@ body {
         /*border:2px solid #fff;*/
         padding: 10px 0px 13px 0px;
         margin-top:20px;
-        font-size:15px;
+        font-size:1.5rem;
         display: block;
         text-decoration: none;
      }
@@ -374,7 +385,7 @@ body {
           margin-top: 10px;
           color: #222222;
           font-weight: bold;
-          font-size: 3rem;
+          font-size: 2.25rem;
           letter-spacing: 0;
           -webkit-transition: color 1s ease-out;
           -moz-transition: color 1s ease-out;
@@ -392,10 +403,19 @@ body {
 
      .heading-text {
           width: 85%;
-          font-size: 2.8rem;
-          line-height: 3rem;
+          font-size: 5.063rem;
+          line-height: 5.063rem;
           max-width: 1824px;
           letter-spacing: 0;
+          }
+
+     .hero-text {
+          width: 85%;
+          font-size: 3.375rem;
+          line-height: 3.375rem;
+          max-width: 1824px;
+          letter-spacing: 0;
+          padding-bottom: 60px;
           }
 
      main {
@@ -444,11 +464,12 @@ body {
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
           font-style: normal;
-          font-size: 2rem;
-          line-height: 2.4rem;
+          font-size: 1.5rem;
+          line-height: 2rem;
           letter-spacing: .04rem;
           margin-top: 30px;
-          margin-bottom: -10px;
+          margin-bottom: 0px;
+          padding-bottom: 30px;
      }
 
 

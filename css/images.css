@@ -53,29 +53,69 @@ Author: Ari Korner
 /* Midwood                   
 /*******************************************/
 
+
+
+
 /******************************************
 /* Book Cover Design                   
 /*******************************************/
      #bj-img01 {
-               background-image: url(../images/work/bookjacket/bookjacket01.jpg);
+          background-image: url(../images/work/bookjacket/bookjacket01.jpg);
           }
 
      #bj-img02 {
-               background-image: url(../images/work/bookjacket/bookjacket02.jpg);
+          background-image: url(../images/work/bookjacket/bookjacket02.jpg);
           }
 
      #bj-img03 {
-     background-image: url(../images/work/bookjacket/bookjacket03.jpg);
+          background-image: url(../images/work/bookjacket/bookjacket03.jpg);
           }
 
      #bj-img04 {
-     background-image: url(../images/work/bookjacket/bookjacket04.jpg);
+          background-image: url(../images/work/bookjacket/bookjacket04.jpg);
           }
 
 
 /******************************************
 /* Viacom Fast Forward                   
 /*******************************************/
+     
+          /*900/1824 = padding-top*/
+
+     .ff-hero {
+          height: 0px;
+          margin-top: -20px;
+          padding-top: 49.34%;
+          background-repeat:no-repeat;
+          background-size: contain;
+          background-position:center;
+          width: 100%;
+          clear: both;
+     }
+
+               /*1026/1824 = padding-top*/
+
+     .ff-herologo {
+          height: 0px;
+          margin-top: -20px;
+          padding-top: 56.25%;
+          background-repeat:no-repeat;
+          background-size: contain;
+          background-position:center;
+          width: 100%;
+          clear: both;
+     }
+          #ff-img01 {
+               background-image: url(../images/work/ff/ff-logo01.jpg);
+          }
+
+          #ff-img04 {
+               background-image: url(../images/work/ff/ff-pres01.jpg);
+          }
+          
+          #ff-img05 {
+               background-image: url(../images/work/ff/ff-pres02.jpg);
+          }
 
 
 
@@ -84,7 +124,45 @@ Author: Ari Korner
 /* Cent'Anni                   
 /*******************************************/
 
+     /*1824px x 1216*/
 
+     .ca-hero {
+          height: 0px;
+          margin-top: -20px;
+          padding-top: 66.66%;
+          background-repeat:no-repeat;
+          background-size: contain;
+          background-position:center;
+          width: 100%;
+          clear: both;
+     }
+
+
+          #ca-img02 {
+               background-image: url(../images/work/centanni/02-centanni.jpg);
+                    }
+          #ca-img03 {
+               background-image: url(../images/work/centanni/03-centanni-menu.jpg);
+          }
+          #ca-img04 {
+               background-image: url(../images/work/centanni/04-centanni-menu.jpg);
+          }
+          
+          #ca-img05 {
+               background-image: url(../images/work/centanni/05-centanni.jpg);
+          }
+
+          #ca-img06 {
+               background-image: url(../images/work/centanni/06-centanni-ragu.jpg);
+          }
+
+          #ca-img07 {
+               background-image: url(../images/work/centanni/07-centanni.jpg);
+          }
+
+          #ca-img08 {
+               background-image: url(../images/work/centanni/08-centanni.jpg);
+          }
 
 
 /******************************************
