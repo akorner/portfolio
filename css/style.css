@@ -46,10 +46,9 @@ Author: Ari Korner
 
 body {
      color: #000;
-     font-size: 12px;
+     font-size: 16px;
      line-height: 1.4;
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-     margin:0px;
 }
 
 /******************************************
@@ -119,7 +118,7 @@ body {
        left: 100%;
        width: 100%;
        height: 100%;
-       padding: 50px 105px 50px 25px;
+       padding: 20px 105px 20px 25px;
        transition: all .2s ease-in-out;
        color: #fff;
      }
@@ -135,6 +134,7 @@ body {
        z-index: 5;
        left: 0;
        background: rgba(0, 0, 0, 0.9);
+       overflow-y: auto;
      }
      nav ul {
        list-style: none;
@@ -142,17 +142,22 @@ body {
        margin: 0;
      }
      nav ul li {
-       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-     }
+/*       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+*/     }
      nav ul li a {
        display: block;
-       padding: 20px;
+       padding: 5px;
        font-weight: 100;
-       font-size: 1rem;
+       font-size: 1.5rem;
        font-family: 'Work Sans', Helvetica, sans-serif;
        font-weight: 300;
        font-style: normal;
        text-transform: none;
+     }
+
+     nav ul li:first-child {
+       padding-top: 5em;
+      
      }
      nav ul li a:hover {
        color: #b6ac84;
@@ -161,28 +166,41 @@ body {
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+  
+  header {
+    padding-top: 50px;
+  }
 
-.home-button {
-          margin-top: 15px;
+    .home-button {
+          margin-top: 20px;
           margin-left: 20px;
           padding: 20px;
           text-decoration: none;
-          color: #222222;
+          color: #050505;
           font-weight: bold;
-          font-size: 3rem;
-          font-family: "freight-big-pro", Baskerville, Times, serif;
-          font-weight: 900;
+          font-size: 1.5rem;
+          font-family: 'Work Sans', Helvetica, sans-serif;
+          font-weight: 400;
           font-style: normal;
-          text-transform: none;
-          letter-spacing: .0;
+/*          text-transform: uppercase;
+*/          letter-spacing: .0;
           cursor: pointer;
-          display: inline;
-    }
+/*          display: inline;
+*/    }
 
     .intro{
           padding-left: 40px;
           padding-right: 60px;
-          margin-bottom: 2.5em;
+          margin-bottom: 1.5em;
+          margin-top: 5em;
+     }
+
+     .copy {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 60px;
+        padding-top: 4rem;
+
      }
 
      .heading{
@@ -190,15 +208,17 @@ body {
      }
 
      a {
-          font-family: 'Work Sans', Helvetica, sans-serif;
+          font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
+          font-style: normal;
      }
 
      p {
           font-family: 'Work Sans', Helvetica, sans-serif;
           font-weight: 400;
           font-style: normal;
-          font-size: 10px;
+          font-size: 1rem;
+          color: #050505;
      }
 
      .heading-text {
@@ -206,20 +226,38 @@ body {
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
           font-style: normal;
-          font-size: 1.6rem;
-          line-height: 1.65rem;
+          font-size: 2rem;
+          line-height: 1.75rem;
           letter-spacing: .04rem;
-          margin-bottom: -10px;
+          text-align: center;
+          margin-bottom: 0px;
      }
 
+     .category {
+      color: #050505;
+      text-align: center;
+      letter-spacing: .04rem;
+      text-transform: uppercase;
+      margin-top: .6rem;
+      font-size: .6rem;
+
+     }
+
+    .divider {
+      letter-spacing: -1rem;
+      text-align: center;
+      color: #050505;
+      margin-top: .6rem;
+    }
+
     .hero-text {
-          width: 100%;
+          width: 85%;
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
           font-style: normal;
           font-size: 1.6rem;
-          line-height: 1.65rem;
-          letter-spacing: .04rem;
+          line-height: 1.7rem;
+          letter-spacing: .02rem;
           margin-bottom: -10px;
      }
 
@@ -243,21 +281,44 @@ body {
      }
 
      h3 {
-          font-size: 2.25rem;
+          font-size: 1.5rem;
+          line-height: 1.5rem;
           color: #222222;
-          font-family: "freight-big-pro", Baskerville, Times, serif;
-          font-weight: 900;
+          font-family: font-family: 'Work Sans', Helvetica, sans-serif;
+          font-weight: 700;
           font-style: normal;
           text-transform: none;
           letter-spacing: .04em;
+          margin-top: 2rem;
           margin-bottom: 10px;
 
      }
 
+      h4 {
+          font-family: 'Work Sans', Helvetica, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: .8rem;
+          color: #b6ac84;
+          text-transform: uppercase;
+          letter-spacing: .04em;
+          margin-bottom: 0.5rem;
+     }
+
+     #experience {
+        font-size: 2rem;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+     }
+
      /*video*/
 
+     iframe {
+      background: fff;
+     }
+
      .videowrapper {
-          background-color:white;
+          background-color: white;
           width:100%;
           margin:0 auto;
           padding:20px;
@@ -291,7 +352,7 @@ body {
           position: relative;
           float: left;
           display: block;  
-          padding-bottom: 1.5em;
+          padding-bottom: .5em;
      }
     
       .hotzone {
@@ -307,15 +368,18 @@ body {
      .next-wrapper {
         clear: both;
         width: 100%;
-        height: 100px;
+        height: 200px;
         text-align: center;
-        background: #222222;
+        background: #050505;
      }
 
      .next-btn {
         position: relative;
         vertical-align: baseline;
         top: 50%;
+        font-family: "freight-big-pro", Baskerville, Times, serif;
+        font-weight: 300;
+        font-style: normal;
         letter-spacing: .05em;
         transform: translateY(-50%);
         margin: 0 auto;
@@ -323,8 +387,8 @@ body {
         width: 100%;
         /*border:2px solid #fff;*/
         padding: 10px 0px 13px 0px;
-        margin-top:20px;
-        font-size:1.5rem;
+        margin-top: 20px;
+        font-size : 1.5rem;
         display: block;
         text-decoration: none;
      }
@@ -349,22 +413,26 @@ body {
 
      footer {
           clear: both;
-          background: #fbf8ee;
+          background: #fff;
+          border-top: 1px dashed;
           padding: 30px;
           overflow: hidden;
 
      }
 
      .foot-wrapper p {
-          font-size: 1.2em;
-          padding-bottom: 1.2em;
-
+          font-size: 1.25em;
+          padding-bottom: 1em;
+ 
      }
 
      strong a {
+          font-family: 'Work Sans', Helvetica, sans-serif;
+          font-weight: 400;
+          font-style: normal;
           text-decoration: none;
-          color: #282b2d;
-          border-bottom: 3px solid #E74C3C;
+          color: #050505;
+          border-bottom: 1px solid #ed6541;
      }
 
      small {
@@ -376,7 +444,7 @@ body {
      }
 
      .contact {
-          color:#222222;
+          color:#050505;
           border:2px solid #282b2d;
           padding: 10px 20px 13px 20px;
           margin-top:20px;
@@ -385,34 +453,40 @@ body {
           text-decoration: none;
           text-align: center;
           width: 60%;
+          text-transform: uppercase;
         }
 
       .contact:hover {
           background: #282b2d;
           color: #fbf8ee;
         }
+
+        span {
+          color: #b6ac84;
+        }
+
 /***************************************************************************/
 
 @media screen and (min-width: 767px) {
     /* desktop */
 
     nav ul li a {
-       font-size: 3rem;
+       font-size: 2.75rem;
      }
 
      header {
           height: 60px;
-          padding-top: 0px;
+          padding-top: 10px;
           margin: 0 auto;
           max-width: 1824px;
      }
 
     .home-button {
           float: left;
-          margin-top: 10px;
-          color: #222222;
-          font-weight: bold;
-          font-size: 2.25rem;
+          margin-top: 20px;
+          color: #050505;
+/*          font-weight: bold;*/
+          font-size: 1.5rem;
           letter-spacing: 0;
           -webkit-transition: color 1s ease-out;
           -moz-transition: color 1s ease-out;
@@ -428,21 +502,48 @@ body {
           margin-top: 10rem;
           }
 
-     .heading-text {
-          width: 85%;
-          font-size: 5.063rem;
+      .copy {
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 60px;
+
+     }
+
+    /*    THIS IS THE PROJECT HEADING TEXT   */     
+
+      .heading-text {
+          width: 100%;
+          font-size: 4rem;
           line-height: 5.063rem;
           max-width: 1824px;
           letter-spacing: 0;
+          text-align: center;
           }
 
+      .category {
+          letter-spacing: .04rem;
+          text-transform: uppercase;
+          margin-top: .2rem;
+          font-size: .8rem;
+
+     }
+
+     .divider {
+          letter-spacing: -1rem;
+          text-align: center;
+          color: gray;
+          margin-top: .6rem;
+          margin-bottom: 4rem;
+        }
+
      .hero-text {
-          width: 85%;
+          width: 70%;
           font-size: 3.375rem;
           line-height: 3.375rem;
           max-width: 1824px;
           letter-spacing: 0;
-          padding-bottom: 60px;
+          padding-bottom: 20px;
+          padding-top: 100px;
           }
 
      main {
@@ -483,7 +584,7 @@ body {
 
      p {
           font-size: 1.3rem;
-          line-height: 1.7em;
+          line-height: 1.5em;
      }
 
     h2 { 
@@ -491,12 +592,42 @@ body {
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
           font-style: normal;
-          font-size: 1.5rem;
-          line-height: 2rem;
+          font-size: 1.2rem;
+          line-height: 1.5rem;
           letter-spacing: .04rem;
           margin-top: 30px;
           margin-bottom: 0px;
           padding-bottom: 30px;
+     }
+
+      h3 {
+          font-size: 1.25rem;
+          font-weight: 700;
+          text-transform: none;
+          letter-spacing: 0em;
+          margin-top: 2rem;
+          margin-bottom: 20px;
+
+     }
+
+     h4 {
+          
+          font-size: 1rem;
+          text-transform: uppercase;
+          letter-spacing: .04em;
+          margin-top: -.5rem;
+          margin-bottom: .5rem;
+     }
+
+     #experience {
+        font-size: 3.375rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        letter-spacing: .0;
+     }
+
+     .next-btn {
+        font-size :2.618rem;
      }
 
 

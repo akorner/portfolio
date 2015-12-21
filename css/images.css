@@ -25,7 +25,7 @@ Author: Ari Korner
      }
 
      #centanni-hero {
-          background-image: url(../images/cover/cover-centanni.jpg);
+          background-image: url(../images/cover/cover-centanni03.jpg);
      }
 
      #midwood-hero {
@@ -46,14 +46,28 @@ Author: Ari Korner
           background-image: url(../images/cover/cover-mondo.png);
      }
      #books-hero {
-          background-image: url(../images/cover/cover-books01.jpg);
+          background-image: url(../images/cover/cover-books02.jpg);
      }
 
 /******************************************
 /* Midwood                   
 /*******************************************/
 
+     #midwood-logo {
+     background-image: url(../images/work/midwood/midwood-logo.png);
+     }
 
+     #midwood-menu {
+     background-image: url(../images/work/midwood/midwoodmenus2.png);
+     }
+
+     #midwood-cards {
+     background-image: url(../images/work/midwood/midwoodcard02.png);
+     }
+
+     #midwood-card-fb {
+     background-image: url(../images/work/midwood/midwoodcard02.png);
+     }
 
 
 /******************************************
@@ -105,6 +119,7 @@ Author: Ari Korner
           width: 100%;
           clear: both;
      }
+     
           #ff-img01 {
                background-image: url(../images/work/ff/ff-logo01.jpg);
           }
@@ -115,6 +130,10 @@ Author: Ari Korner
           
           #ff-img05 {
                background-image: url(../images/work/ff/ff-pres02.jpg);
+          }
+
+          #ff-img06 {
+               background-image: url(../images/work/ff/ff-pres03.jpg);
           }
 
 
@@ -137,7 +156,9 @@ Author: Ari Korner
           clear: both;
      }
 
-
+          #ca-img01 {
+               background-image: url(../images/work/centanni/centanni-facade.jpg);
+                    }
           #ca-img02 {
                background-image: url(../images/work/centanni/02-centanni.jpg);
                     }
@@ -174,10 +195,62 @@ Author: Ari Korner
 /* College Snowfest                   
 /*******************************************/
 
+          #snowfest-img01 {
+               background-image: url(../images/work/snowfest/snowfest01.jpg);
+                    }
+          #snowfest-img02 {
+               background-image: url(../images/work/snowfest/snowfest02.jpg);
+                    }
+          #snowfest-img03 {
+               background-image: url(../images/work/snowfest/snowfest2015-identity.png);
+                    }
+          #snowfest-img04 {
+               background-image: url(../images/work/snowfest/snowfest04.jpg);
+                    }
+          #snowfest-img05 {
+               background-image: url(../images/work/snowfest/snowfest2014-identity.png);
+                    }
+          #snowfest-img06 {
+               background-image: url(../images/work/snowfest/snowfest05.jpg);
+                    }
 
+
+/******************************************
+/* Holga                   
+/*******************************************/
+
+
+          #holga-img01 {
+               background-image: url(../images/work/holga/holga01.jpg);
+                    }
+
+          #holga-img02 {
+               background-image: url(../images/work/holga/holga02.gif);
+                    }
+
+          #holga-img04 {
+               background-image: url(../images/work/holga/holga04.jpg);
+                    }
 /******************************************
 /* Mondo                   
 /*******************************************/
+
+          #mondo-img01 {
+               background-image: url(../images/work/mondo/mondo-logolockup.png);
+                    }
+
+          #mondo-img02 {
+               background-image: url(../images/work/mondo/mondo-brandelements.png);
+                    }
+
+          #mondo-img03 {
+               background-image: url(../images/work/mondo/mondo-icons.png);
+                    }
+
+          #mondo-img05 {
+               background-image: url(../images/work/mondo/mondo-cardspread.jpg);
+                    }
+
 
      /**
 
