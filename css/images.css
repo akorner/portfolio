@@ -29,7 +29,7 @@ Author: Ari Korner
      }
 
      #midwood-hero {
-          background-image: url(../images/cover/cover-midwood.jpg);
+          background-image: url(../images/cover/cover-midwood02.jpg);
      }
 
      #marathon-hero {
@@ -54,11 +54,11 @@ Author: Ari Korner
 /*******************************************/
 
      #midwood-logo {
-     background-image: url(../images/work/midwood/midwood-logo.png);
+     background-image: url(../images/work/midwood/midwoodlogo02.jpg);
      }
 
      #midwood-menu {
-     background-image: url(../images/work/midwood/midwoodmenus3.png);
+     background-image: url(../images/work/midwood/midwoodmenus5.jpg);
      }
 
      #midwood-cards {
@@ -66,9 +66,16 @@ Author: Ari Korner
      }
 
      #midwood-card-fb {
-     background-image: url(../images/work/midwood/midwoodcard03.png);
+     background-image: url(../images/work/midwood/midwoodcard04.jpg);
      }
 
+     #midwood-space {
+     background-image: url(../images/work/midwood/midwoodspace.jpg);
+     }
+
+     #midwood-in {
+     background-image: url(../images/work/midwood/midwoodinterior.jpg);
+     }
 
 /******************************************
 /* Book Cover Design                   
@@ -122,6 +129,10 @@ Author: Ari Korner
      
           #ff-img01 {
                background-image: url(../images/work/ff/ff-logo01.jpg);
+          }
+
+          #ff-img02 {
+               background-image: url(../images/work/ff/ff-background02.jpg);
           }
 
           #ff-img04 {

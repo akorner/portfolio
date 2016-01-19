@@ -190,12 +190,12 @@ body {
           font-size : 1.5rem;
           display: block;
           text-decoration: none;
-
       }
 
+
     .intro{
-          padding-left: 40px;
-          padding-right: 60px;
+          padding-left: 25px;
+          padding-right: 25px;
           margin-bottom: 1.5em;
           margin-top: 5em;
      }
@@ -218,13 +218,16 @@ body {
           font-style: normal;
      }
 
-     p {
+    p {
           font-family: 'Work Sans', Helvetica, sans-serif;
           font-weight: 400;
           font-style: normal;
           font-size: 1rem;
           color: #050505;
      }
+
+
+
 
      .heading-text {
           width: 100%;
@@ -256,14 +259,13 @@ body {
     }
 
     .hero-text {
-          width: 85%;
+          width: 100%;
           font-family: "freight-big-pro", Baskerville, Times, serif;
           font-weight: 400;
           font-style: normal;
           font-size: 1.6rem;
           line-height: 1.7rem;
           letter-spacing: .02rem;
-          margin-bottom: -10px;
      }
 
      h1 { 
@@ -430,6 +432,10 @@ body {
  
      }
 
+     strong {
+      font-weight: 700;
+     }
+
      strong a {
           font-family: 'Work Sans', Helvetica, sans-serif;
           font-weight: 400;
@@ -474,9 +480,6 @@ body {
 @media screen and (min-width: 767px) {
     /* desktop */
 
-/*    body {
-      max-width: 1200px;
-    }*/
 
     nav ul li a {
        font-size: 2.75rem;
@@ -486,7 +489,7 @@ body {
           height: 60px;
           padding-top: 10px;
           margin: 0 auto;
-          max-width: 1824px;
+          max-width: 1600px;
      }
 
     .home-button {
@@ -519,7 +522,7 @@ body {
           width: 100%;
           font-size: 4rem;
           line-height: 5.063rem;
-          max-width: 1824px;
+          max-width: 1600px;
           letter-spacing: 0;
           text-align: center;
           }
@@ -544,19 +547,19 @@ body {
           width: 70%;
           font-size: 3.375rem;
           line-height: 3.375rem;
-          max-width: 1824px;
+          max-width: 1600px;
           letter-spacing: 0;
           padding-bottom: 20px;
           padding-top: 100px;
           }
 
      main {
-          max-width: 1824px;
+          max-width: 1600px;
           margin: 0 auto;
      }
 
      .foot-wrapper {
-          max-width: 1824px;
+          max-width: 1600px;
           margin: 0 auto;
           padding:30px;
      }
@@ -646,9 +649,14 @@ body {
 
      }
 
+    .next-wrapper {
+        height: 300px;
+     }
 
 @media only screen and (min-width: 1440px) {
     /* styles for MacBook Pro-sized screens and larger */
+    
+
 
 }
 
